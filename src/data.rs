@@ -48,8 +48,9 @@ pub fn main() {
     //数组索引访问
     let index: usize = index.trim().parse().expect("Please input a number!");
     let element = a[index];
+    //打印双引号
     println!(
-        "The value of the element is: {} , index is {}",
+        "The value of the element is: \"{}\" , index is {}",
         element, index
     );
 }
